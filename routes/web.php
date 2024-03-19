@@ -30,3 +30,5 @@ Route::group(['prefix' => 'banner'], function () {
 Route::get('javascript', [\App\Http\Controllers\JS::class, 'index'])->name('js');
 Route::get('key-event', [\App\Http\Controllers\JS::class, 'index2'])->name('key-event');
 Route::get('index', [\App\Http\Controllers\JS::class, 'index3'])->name('project.index');
+
+Route::get('happy-birthday', [\App\Http\Controllers\HappyBirthdayController::class, 'index'])->name('Hoang.happy_birthday');
